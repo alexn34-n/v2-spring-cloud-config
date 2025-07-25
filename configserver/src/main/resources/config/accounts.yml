@@ -1,6 +1,6 @@
-
   build:
     version: "3.0"
+
 accounts:
   message: "Welcome to AlexBank accounts related local APIs "
   contactDetails:
