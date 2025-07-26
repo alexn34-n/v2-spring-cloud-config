@@ -1,17 +1,13 @@
 spring:
-  application:
-    name: "configserver"
-
-
-
-profiles:
-    active: native
-
+ application:
+  name: "configserver"
+ profiles:
+  active: native
 cloud:
-    config:
-        server:
-          native:
-            search-locations: "classpath:/config"
-
+  config:
+    server:
+     native:
+#     search-locations: "classpath:/config"
+       search-locations: "file:///home//user//Документы//config"
 server:
-    port: 8071
+  port: 8071
