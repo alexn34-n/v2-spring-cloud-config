@@ -3,7 +3,7 @@ build:
   version: "1.0"
 
 loans:
-  message: "Welcome to AlexBank loans related prod APIs "
+  message: "Welcome to AlexBank loans related production APIs "
   contactDetails:
     name: "Paul Sidorov - Product Owner"
     email: "sidorov@eazybank.com"
