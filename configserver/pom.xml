@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>dev.alexn</groupId>
 	<artifactId>configserver</artifactId>
+
 	<version>0.0.1-SNAPSHOT</version>
 	<name>configserver</name>
 	<description>Config Server for  Alexbank microservices</description>
@@ -38,11 +39,13 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
+
 		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.cloud</groupId>-->
-<!--			<artifactId>spring-cloud-starter-bus-amqp</artifactId>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
+		</dependency>
+
 <!--		<dependency>-->
 <!--			<groupId>org.springframework.cloud</groupId>-->
 <!--			<artifactId>spring-cloud-config-monitor</artifactId>-->
